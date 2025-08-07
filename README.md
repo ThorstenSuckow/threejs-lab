@@ -1,1 +1,2 @@
-# threejs-lab
+# threejs
+three.js / webgl playground

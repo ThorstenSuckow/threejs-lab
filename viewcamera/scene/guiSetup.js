@@ -76,7 +76,7 @@ export const makeGui = (targetContainer) => {
     );
 
     // 2D Dummy View
-    const image2d = gui.addFolder("2D Image");
+    const image2d = gui.addFolder("Camera Image");
     const camCont = image2d.domElement.firstChild.nextSibling;
     camCont.style.height = "200px";
     state.dummyRenderer.domElement.style.height = "200px";
